@@ -1,0 +1,93 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #878787;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 2px;
+  background-color: white;
+  text-align: center;
+  display: inline-table;
+  transition: transform 0.2s;
+  font-size: 1em;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background-color: azure;
+  border: 1px solid #0044b1;
+  box-shadow: 0 2px 2px rgba(0, 64, 142, 0.64);
+}
+
+h3 {
+  margin: 1px;
+  color: #555555;
+}
+
+time {
+  font-size: 0.9em;
+}
+
+span {
+  font-size: 0.9em;
+  padding-left: 10px;
+}
+button {
+  margin: 2px;
+  border: 1px solid #ffffff;
+  background-color: rgb(255, 204, 0);
+}
+
+button:hover {
+  transform: scale(1.02);
+  background-color: rgb(255, 252, 240);
+  border: 1px solid #b16100;
+  box-shadow: 0 2px 2px rgba(142, 76, 0, 0.64);
+}
+
+.email-button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 50%;
+  margin: 1px;
+}
+
+.email-button button {
+  cursor: pointer;
+}
+
+.email-button input {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 5;
+  cursor: pointer;
+  margin: 0;
+}
+
+footer button {
+  padding: 10px 15px;
+
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+label {
+  font-size: 0.8em;
+}
